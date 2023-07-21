@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <p>Welcome to <%= subhead %>
+  </p>
+  <table bgcolor="black" width="1200">
+    <tr bgcolor="skyblue">
+      <th width="100">ID </th>
+      <th width="100">Term</th>
+      <th width="1000">Description</th>
+      <th width="500">References</th>
+    </tr>
+    <% items.forEach((item)=> { %>
+      <tr bgcolor="Powderblue" align="justify">
+        <td bgcolor="skyblue" align="center">
+          <%= item.id %>
+        </td>
+        <td align="center">
+          <%= item.title %>
+        </td>
+        <td>
+          <%= item.description %>
+        </td>
+        <td>
+          <%= item.reference %>
+        </td>
+      </tr>
+      <% }); %>
+  </table>
+</body>
+
+</html>
