@@ -42,6 +42,17 @@ const itemList = [
   { 'id': 38, 'title': 'Commit', 'Continuous Deployment': 'Continuous Deployment is a form of Continuous Delivery that is fully automated and deploys every version instantly.', 'reference': '[38] Octopus Deploy, "DevOps Glossary," Octopus Deploy, https://octopus.com/devops/glossary/'},
   { 'id': 39, 'title': 'Model-Based Testing', 'description': 'A model is an abstraction of the real-world function and represents the expected behaviour of the system.', 'reference': '[39] Plutora, "DevOps at Scale: Terminology Glossary," Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary'},
   { 'id': 40, 'title': 'NoOps', 'description': 'NoOps (no operations) is the idea that automation can completely eliminate the need for a dedicated operations team.', 'reference': '[40] Plutora, "DevOps at Scale: Terminology Glossary," Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary'},
+  { 'id': 41, 'title': 'ChatOps', 'description': 'The use of chat clients, chatbots and real-time communication tools to facilitate how software development and operation tasks are communicated and executed.', 'reference': '[41] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 42, 'title': 'Flow', 'description': 'How people or products move through a process. The DevOps "First Way" is concerned with optimizing flow through systems.', 'reference': '[42] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 43, 'title': 'Iterations', 'description': 'A single development cycle, typically measured as one week or two weeks.', 'reference': '[43] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 44, 'title': 'Kanban', 'description': 'A visual method of controlling activity that pulls the flow of work through a process at a manageable pace.', 'reference': '[44] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 45, 'title': 'Lean ', 'description': 'A production philosophy that focuses on reducing waste and improving the flow of processes to improve customer value.', 'reference': '[45] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 46, 'title': 'Lean IT', 'description': 'Applying the key ideas behind lean to the development and operation of IT products and services.', 'reference': '[46] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 47, 'title': 'Scrum', 'description': 'An Iterative, time-bound, and incremental Agile Framework for completing complex projects.', 'reference': '[47] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 48, 'title': 'Time to Value', 'description': 'Measure of the time it takes for the business to realize value from a feature.', 'reference': '[48] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 49, 'title': 'Toolchain', 'description': 'Use of an integrated set of task-specific tools to automate an end-to-end process. For example, automated code testing, release and deployment.', 'reference': '[49] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+{ 'id': 50, 'title': 'Waterfall (Software Development)', 'description': ' Linear and sequential approach to software design and development where progress is seen as flowing steadily downwards.', 'reference': '[50] https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/'},
+
   ]
 
 
